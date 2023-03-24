@@ -1,0 +1,31 @@
+name: portal_unsrat_clone
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  assets_gen: ^1.4.1
+  cupertino_icons: ^1.0.5
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  path_provider: ^2.0.12
+  sqflite: ^2.2.4+1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_hd.png
+    - assets/images/logo_mosaic.png
+    - assets/images/instagram.png
+    - assets/images/twitter.png
+    - assets/images/youtube.png
